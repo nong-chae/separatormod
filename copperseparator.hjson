@@ -1,0 +1,30 @@
+type: GenericCrafter 
+health: 120
+size: 2 
+
+description:separating copper for some reason
+hasItems: true
+hasPower: true
+
+itemCapacity: 50 
+requirements: [ 
+    copper/150
+    lead/200 
+] 
+
+consumes: {  
+power: 2
+items: { 
+items: [ 
+scrap/4
+        ] 
+    }
+}
+
+outputItem: copper/1
+
+craftTime: 35
+craftEffect: melting
+
+category: crafting
+research: separator
