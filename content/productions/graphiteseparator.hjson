@@ -1,5 +1,5 @@
 type: GenericCrafter 
-health: 120
+health: 125
 size: 2 
 
 description:separating graphite for some reason
@@ -8,13 +8,14 @@ hasPower: true
 
 itemCapacity: 50 
 requirements: [ 
-    copper/150
-    lead/200
-    graphite/50
+    copper/80
+    lead/50
+    graphite/20
+    scrap/30
 ] 
 
 consumes: {  
-power: 2.5
+power: 0.87
 items: { 
 items: [ 
 scrap/4
@@ -24,7 +25,7 @@ scrap/4
 
 outputItem: graphite/1
 
-craftTime: 45
+craftTime: 28
 craftEffect: melting
 
 category: crafting
