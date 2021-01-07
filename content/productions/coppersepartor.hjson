@@ -16,12 +16,12 @@ consumes: {
 power: 0.7
 items: { 
 items: [ 
-scrap/1
+scrap/3
         ] 
     }
 }
 
-outputItem: copper/1
+outputItem: copper/2
 
 craftTime: 20
 craftEffect: melting
