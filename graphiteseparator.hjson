@@ -1,0 +1,31 @@
+type: GenericCrafter 
+health: 120
+size: 2 
+
+description:separating graphite for some reason
+hasItems: true
+hasPower: true
+
+itemCapacity: 50 
+requirements: [ 
+    copper/150
+    lead/200
+    graphite/50
+] 
+
+consumes: {  
+power: 2.5
+items: { 
+items: [ 
+scrap/4
+        ] 
+    }
+}
+
+outputItem: graphite/1
+
+craftTime: 45
+craftEffect: melting
+
+category: crafting
+research: leadseparator
