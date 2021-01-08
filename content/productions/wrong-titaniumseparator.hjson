@@ -1,0 +1,32 @@
+type: GenericCrafter 
+health: 230
+size: 2 
+
+description:make titanium into scrap
+
+hasItems: true
+hasPower: true
+
+itemCapacity: 30 
+requirements: [ 
+    copper/80
+    lead/70
+    titanium/80
+] 
+
+consumes: {  
+power: 0.8
+items: { 
+items: [ 
+titanium/1
+        ] 
+    }
+}
+
+outputItem: scrap/4
+
+craftTime: 30
+craftEffect: melting
+
+category: crafting
+research:titaniumseparator
