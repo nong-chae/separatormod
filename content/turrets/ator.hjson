@@ -1,0 +1,46 @@
+type: ItemTurret
+name: ator
+description:look at the enemies
+requirements: [
+    copper/200
+    lead/150
+    scrap/180
+   titanium/170
+] 
+
+ammoTypes: { 
+   scrap:{
+          type:ContinuousLaserBulletType
+          length:60
+          fladetime:10
+          speed:5
+colors:[666666FF,9B928BFF,E0B28DFF,FFFFFFFF]
+          tscales:[0.2,0.2,0.2,0.1]
+          width:5
+          damage:90
+          drawsize:200
+          pierce:true
+          collidesTiles:true
+         incendChance:0.5
+         lifetime:15
+         ammoMultiplier:1
+}
+} 
+reloadTime: 1
+range: 90
+size: 2
+ammoPershot:10
+recoilAmount: 0
+rotateSpeed: 5
+inaccuracy: 15
+shootCone: 10
+spread: 0
+health: 800
+ammoEjectBack:5
+ammoUseEffect:fireSmoke
+shootEffect:burning
+shootSound: flame
+category: turret
+research:swarmer
+targetGround: true
+targetAir: true 
