@@ -1,0 +1,55 @@
+type: ItemTurret
+name: separ
+description:umm...sniper..maybe
+requirements: [
+    copper/400
+    lead/300
+    graphite/100
+    scrap/300
+   titanium/200
+] 
+
+ammoTypes: { 
+    scrap: {
+        type:BasicBulletType
+        damage: 2000
+        speed: 100
+        lifetime: 10
+        hittable:false
+        hitEffect:smoke
+        ammoMultiplier:5
+        width: 2
+        height: 8
+        sprite: separator-mod-separbullet
+    }
+    titanium:{
+    type:BasicBulletType
+    damage:1300
+    speed:50
+     width:2
+     height:8
+     lifetime:20
+     hitEffect:sapped
+     ammoMultiplier:2
+     sprite:separator-mod-titashot
+     }
+}
+reloadTime: 800
+range: 1200
+size: 2
+shots: 1
+targetGround: true
+targetAir: true 
+recoilAmount: 5
+rotateSpeed: 5
+inaccuracy: 0
+shootCone: 1
+shootshake:10
+health: 1
+cooldown:10
+ammoUseEffect:steam
+shooteffect:cloudsmoke
+shootSound: shootSnap 
+category:turret
+research: foreshadow
+ammoPershot:4
