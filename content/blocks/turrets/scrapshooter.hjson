@@ -12,16 +12,12 @@ lead/230
 
 ammoTypes:{
 scrap:{
-damage:200
+damage:300
 splashDamage:100
 splashDamgeRadius:10
 speed:3
 drawSize:10
-ammoMultiplier:10
-fragAngle:0
-fragCone:360
-fragbullets:5
-fragbullet:artilleryIncendiary
+ammoMultiplier:12
 sprite:scrap-base
 homingPower:0.1
 }
