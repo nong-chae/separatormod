@@ -1,0 +1,38 @@
+type: ItemTurret
+name: scrapshooter
+description:scrap shooter
+health:3000
+
+requirements:[
+scrap/250
+copper/180
+graphite/200
+lead/230
+]
+
+ammoTypes:{
+scrap:{
+damage:200
+splashDamage:100
+splashDamgeRadius:10
+speed:3
+drawSize:10
+ammoMultiplier:10
+fragAngle:0
+fragCone:360
+fragbullets:5
+fragbullet:slagshot
+sprite:scrap
+homingPower:0.1
+}
+}
+reloadTime:180
+range: 180
+size: 4
+targetGround: true
+targetAir: true 
+recoilAmount: 6
+rotateSpeed:1
+category:turret
+research: foreshadow
+ammoPershot:1
