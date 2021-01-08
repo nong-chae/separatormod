@@ -18,12 +18,12 @@ consumes: {
 power: 0.9
 items: { 
 items: [ 
-graphite/2
+graphite/1
         ] 
     }
 }
 
-outputItem: scrap/5
+outputItem: scrap/4
 
 craftTime: 30
 craftEffect: melting
