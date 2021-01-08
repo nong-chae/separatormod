@@ -1,0 +1,32 @@
+type:GenericCrafter
+health:130
+size:2
+description:"scrap..yes"
+hasItems:true
+hasPower:true
+itemCapacity:100 
+requirements:[
+copper/70
+lead/90
+scrap/80
+]
+consumes:{
+power:1
+items:{
+items:[
+scrap/50
+metaglass/1
+]
+}
+}
+outputItem:compressed-scrap/1
+craftTime: 35
+craftEffect:melting
+category: crafting
+research: { 
+    parent:copperseparator
+    requirements: 
+    [ 
+        {item: scrap, amount: 10000}
+    ]
+}
