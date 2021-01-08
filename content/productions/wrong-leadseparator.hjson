@@ -1,0 +1,31 @@
+type: GenericCrafter 
+health: 150
+size: 2 
+
+description:make lead into scrap
+
+hasItems: true
+hasPower: true
+
+itemCapacity: 30 
+requirements: [ 
+    copper/70
+    lead/100
+] 
+
+consumes: {  
+power: 0.7
+items: { 
+items: [ 
+lead/2
+        ] 
+    }
+}
+
+outputItem: scrap/3
+
+craftTime: 30
+craftEffect: melting
+
+category: crafting
+research:leadseparator
