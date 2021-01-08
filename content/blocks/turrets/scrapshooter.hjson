@@ -21,8 +21,8 @@ ammoMultiplier:10
 fragAngle:0
 fragCone:360
 fragbullets:5
-fragbullet:slagshot
-sprite:scrap
+fragbullet:artilleryIncendiary
+sprite:scrap-base
 homingPower:0.1
 }
 }
