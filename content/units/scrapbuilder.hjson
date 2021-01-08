@@ -10,7 +10,6 @@ time:100
 }
 ]
 health:10
-hasPower:true
 hasItems:true
 requirements:[
 scrap/50
