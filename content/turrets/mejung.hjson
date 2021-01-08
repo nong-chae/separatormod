@@ -1,0 +1,52 @@
+type:ItemTurret
+name:mejung
+health:900
+description:"just a turret"
+requirements:[
+copper/200
+lead/180
+scrap/100
+thorium/30
+titanium/170
+] 
+
+ammoTypes:{
+scrap:{
+type:BombBulletType
+damage:75
+splashDamage:90
+splashDamageRadius:5
+lifetime:60
+keepvelocity:true
+sprite:separator-mod-separbullet 
+hitsize:5
+piercebuilding:false
+collidesTiles:true
+ammoMultiplier:10
+status:shocked
+fragcone:0
+fragbullets:20
+fragAngle:360
+fragLifeMin:1
+fragLifeMax:2
+fragBullet:missileExplosive
+scaleVelocity:true
+drag:0
+speed:20
+}
+}
+reloadTime: 180
+range: 320
+size: 3
+burstSpacing:4
+shots: 4
+targetGround: true
+targetAir: false
+recoilAmount: 0.5
+rotateSpeed: 4
+inaccuracy: 0
+shootCone: 1
+spread: 4
+mirage:0
+category: turret
+research:swarmer
