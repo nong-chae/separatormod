@@ -13,7 +13,7 @@ requirements: [
 ] 
 
 consumes: {  
-power: o.7
+power: 0.7
 items: { 
 items: [ 
 scrap/3
