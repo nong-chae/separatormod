@@ -25,7 +25,7 @@ collidesTiles:true
 ammoMultiplier:10
 status:shocked
 fragcone:0
-fragbullets:20
+fragbullets:10
 fragAngle:360
 fragLifeMin:1
 fragLifeMax:2
