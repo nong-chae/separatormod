@@ -1,6 +1,6 @@
 type:mech
 range:100
-health:120
+health:40
 speed:1
 rotateSpeed:2
 baseRotateSpeed:4
@@ -26,7 +26,7 @@ x:0
 y:-1
 shots:1
 shake:0
-reload:30
+reload:20
 firstShotDelay:0
 shotDelay:0
 spacing:5
