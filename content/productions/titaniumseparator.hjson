@@ -1,0 +1,31 @@
+type: GenericCrafter 
+health: 130
+size: 2 
+
+description:separating titanium for some reason
+hasItems: true
+hasPower: true
+
+itemCapacity: 50 
+requirements: [ 
+    copper/90
+    lead/70 
+    titanium/80
+] 
+
+consumes: {  
+power: 0.9
+items: { 
+items: [ 
+scrap/3
+        ] 
+    }
+}
+
+outputItem: titanium/1
+
+craftTime: 30
+craftEffect: melting
+
+category: crafting
+research: separator
