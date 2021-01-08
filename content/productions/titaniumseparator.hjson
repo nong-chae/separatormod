@@ -17,7 +17,7 @@ consumes: {
 power: 0.9
 items: { 
 items: [ 
-scrap/3
+scrap/4
         ] 
     }
 }
