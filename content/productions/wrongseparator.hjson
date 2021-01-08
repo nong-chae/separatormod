@@ -1,0 +1,35 @@
+type: GenericCrafter 
+health: 120
+size: 2
+description:make scrap with copper,lead,graphite,titanium
+hasItems: true
+hasPower: true
+
+itemCapacity: 30
+requirements: [ 
+    copper/80
+    lead/90
+graphite/50
+] 
+
+consumes: {  
+power: 1
+items: { 
+items: [ 
+copper/5
+lead/3
+titanium/2
+graphite/3
+        ] 
+    }
+}
+
+outputItem: scrap/30
+
+craftTime: 50
+craftEffect: melting
+
+category: crafting
+research: separator
+
+
