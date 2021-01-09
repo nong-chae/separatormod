@@ -13,14 +13,15 @@ ammoTypes: {
     scrap: {
         type:BasicBulletType
         damage: 5000
-        speed: 50
-        lifetime: 20
+        speed: 100
+        lifetime: 15
         hittable:false
         hitEffect:smoke
         ammoMultiplier:5
         backColor:000000
         trailChance:1
         trailColor:ffffff
+        trailParam:10     
         width: 2
         height: 8
         sprite: separator-mod-separbullet
@@ -28,13 +29,14 @@ ammoTypes: {
     titanium:{
     type:BasicBulletType
     damage:3300
-    speed:50
+    speed:100
      width:2
      height:8
-     lifetime:20
+     lifetime:15
      backColor:000000
      hitEffect:sapped
      ammoMultiplier:2
+     trailParam:10
      trailChance:1
      trailColor:ffffff
      sprite:separator-mod-titashot
