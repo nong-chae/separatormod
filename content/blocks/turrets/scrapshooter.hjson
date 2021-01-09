@@ -22,6 +22,7 @@ drawSize:10
 ammoMultiplier:12
 sprite:item-scrap
 homingPower:0.1
+homingRange:10000
 hittable:false
 puddles:30
 puddleRange:10
