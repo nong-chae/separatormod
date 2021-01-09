@@ -12,7 +12,7 @@ lead/230
 
 ammoTypes:{
 scrap:{
-backColor:000000
+backColor: 00000000
 damage:200
 speed:8
 lifetime:1000
@@ -25,10 +25,10 @@ hittable:false
 collidesAir:false
 fragCone:0
 fragAngle:360
-fragBullets:1000
+fragBullets:100
 fragBullet:fragGlass
 fragVelocityMin:0.001
-fragVelocityMin:0.001
+fragVelocityMax:0.001
 }
 }
 reloadTime:240
