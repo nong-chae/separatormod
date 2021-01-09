@@ -4,15 +4,21 @@ description:scrap shooter
 health:3000
 
 requirements:[
-scrap/250
-copper/180
-graphite/200
-lead/230
+scrap/500
+copper/500
+graphite/500
+lead/500
+sand/500
+coal/500
+silicone/100
 ]
 
 ammoTypes:{
 scrap:{
+width:8
+height:8
 backColor: 00000000
+damge:1000
 splashDamage:1000
 splashDamageRadius:40
 speed:8
