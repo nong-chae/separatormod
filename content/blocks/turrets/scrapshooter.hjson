@@ -12,15 +12,20 @@ lead/230
 
 ammoTypes:{
 scrap:{
-damage:500
+type:BulletType
+damage:200
 splashDamage:100
 splashDamgeRadius:10
 speed:1
-lifetime:1000
+lifetime:3000
 drawSize:10
 ammoMultiplier:12
 sprite:item-scrap
 homingPower:0.1
+hittable:false
+puddles:30
+puddleRange:10
+puddleLiquid:slag
 }
 }
 reloadTime:240
