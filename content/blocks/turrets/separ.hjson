@@ -35,8 +35,9 @@ ammoTypes: {
      }
 }
 reloadTime: 800
-range: 1200
+range: 1600
 size: 2
+coolEffect
 shots: 1
 targetGround: true
 targetAir: true 
