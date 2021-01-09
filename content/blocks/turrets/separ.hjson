@@ -20,7 +20,7 @@ ammoTypes: {
         ammoMultiplier:5
         backColor:000000
         trailChance:1
-        trailEffect:pointBeam
+        trailEffect:artilleryTrail
         trailColor:ffffff
         trailParam:1   
         width: 2
@@ -39,7 +39,7 @@ ammoTypes: {
      ammoMultiplier:2
      trailParam:1
      trailChance:1
-     trailEffect:pointBeam
+     trailEffect:artilleryTrail
      trailColor:ffffff
      sprite:separator-mod-titashot
      }
