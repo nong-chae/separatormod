@@ -12,7 +12,6 @@ lead/230
 
 ammoTypes:{
 scrap:{
-type:BulletType
 damage:200
 splashDamage:100
 splashDamgeRadius:10
