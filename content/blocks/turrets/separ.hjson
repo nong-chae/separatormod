@@ -13,8 +13,8 @@ ammoTypes: {
     scrap: {
         type:BasicBulletType
         damage: 2000
-        speed: 100
-        lifetime: 10
+        speed: 50
+        lifetime: 20
         hittable:false
         hitEffect:smoke
         ammoMultiplier:5
