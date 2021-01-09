@@ -9,7 +9,7 @@ outputItem:scrap/1
 craftTime:240
 category:production
 consumes: {  
-power: 2
+power: 1
 }
 description:collects dust and fine dust from the air to make scrap metal
 itemCapacity:10
@@ -19,3 +19,4 @@ lead/50
 titanium/20
 ]
 research:scrap
+attribute:none
