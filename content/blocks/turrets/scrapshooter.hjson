@@ -16,7 +16,7 @@ damage:170
 splashDamage:100
 splashDamgeRadius:10
 speed:1
-lifetime:90
+lifetime:1000
 drawSize:10
 ammoMultiplier:12
 sprite:item-scrap
