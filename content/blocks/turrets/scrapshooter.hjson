@@ -12,28 +12,30 @@ lead/230
 
 ammoTypes:{
 scrap:{
-backColor:ffffff
+backColor:000000
 damage:200
-splashDamage:100
-splashDamgeRadius:10
-speed:5
-lifetime:3000
+speed:8
+lifetime:1000
 drawSize:10
 ammoMultiplier:12
 sprite:item-scrap
 homingPower:0.1
-homingRange:10000
+homingRange:1000
 hittable:false
-puddles:2
-puddleRange:10
-puddleLiquid:slag
+collidesAir:false
+fragCone:0
+fragAngle:360
+fragBullets:fragGlass
+fragBullet:100
+fragVelocityMin:0.001
+fragVelocityMin:0.001
 }
 }
 reloadTime:240
 range: 900
 size: 4
 targetGround: true
-targetAir: true 
+targetAir: false
 recoilAmount: 6
 rotateSpeed:1
 category:turret
