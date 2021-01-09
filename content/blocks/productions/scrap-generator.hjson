@@ -10,6 +10,7 @@ craftTime:240
 category:production
 consumes: {  
 power: 2
+}
 description:collects dust and fine dust from the air to make scrap metal
 itemCapacity:10
 requirements:[
