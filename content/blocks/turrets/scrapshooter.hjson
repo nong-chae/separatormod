@@ -25,8 +25,8 @@ hittable:false
 collidesAir:false
 fragCone:0
 fragAngle:360
-fragBullets:fragGlass
-fragBullet:100
+fragBullets:1000
+fragBullet:fragGlass
 fragVelocityMin:0.001
 fragVelocityMin:0.001
 }
