@@ -3,11 +3,11 @@ name:mejung
 health:900
 description:"just a turret"
 requirements:[
-copper/200
-lead/180
-scrap/100
+copper/300
+lead/400
+scrap/800
 thorium/30
-titanium/170
+titanium/240
 ] 
 
 ammoTypes:{
@@ -25,7 +25,7 @@ collidesTiles:true
 ammoMultiplier:10
 status:shocked
 fragcone:0
-fragbullets:10
+fragbullets:20
 fragAngle:360
 fragLifeMin:1
 fragLifeMax:2
