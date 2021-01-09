@@ -18,7 +18,7 @@ scrap:{
 width:8
 height:8
 backColor: 00000000
-damge:1000
+damge:500
 splashDamage:1000
 splashDamageRadius:40
 speed:8
