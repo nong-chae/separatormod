@@ -1,0 +1,20 @@
+health:200
+type:Cultivator
+size:2
+plantColor:9B928BFF
+plantColorLight:E0B28DFF
+bottomColor:666666FF
+craftEffect:bubble
+outputItem:scrap/1
+craftTime:240
+category:production
+consumes: {  
+power: 2
+description:collects dust and fine dust from the air to make scrap metal
+itemCapacity:10
+requirements:[
+copper/90
+lead/50
+titanium/20
+]
+research:scrap
