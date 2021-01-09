@@ -44,3 +44,4 @@ category: turret
 research:swarmer
 targetGround: true
 targetAir: true 
+maxAmmo:300
