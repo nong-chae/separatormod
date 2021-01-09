@@ -12,23 +12,25 @@ requirements: [
 ammoTypes: { 
     scrap: {
         type:BasicBulletType
-        damage: 2000
+        damage: 5000
         speed: 50
         lifetime: 20
         hittable:false
         hitEffect:smoke
         ammoMultiplier:5
+        backColor:000000
         width: 2
         height: 8
         sprite: separator-mod-separbullet
     }
     titanium:{
     type:BasicBulletType
-    damage:1300
+    damage:3300
     speed:50
      width:2
      height:8
      lifetime:20
+     backColor:000000
      hitEffect:sapped
      ammoMultiplier:2
      sprite:separator-mod-titashot
