@@ -13,7 +13,8 @@ lead/230
 ammoTypes:{
 scrap:{
 backColor: 00000000
-damage:200
+splashDamage:1000
+splashDamageRadius:40
 speed:8
 lifetime:1000
 drawSize:10
@@ -23,12 +24,6 @@ homingPower:0.1
 homingRange:1000
 hittable:false
 collidesGround:false
-fragCone:0
-fragAngle:360
-fragBullets:20
-fragBullet:flakScrap
-fragVelocityMin:0.001
-fragVelocityMax:0.001
 }
 }
 reloadTime:240
