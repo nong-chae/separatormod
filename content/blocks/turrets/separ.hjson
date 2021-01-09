@@ -19,6 +19,8 @@ ammoTypes: {
         hitEffect:smoke
         ammoMultiplier:5
         backColor:000000
+        trailChance:1
+        trailColor:ffffff
         width: 2
         height: 8
         sprite: separator-mod-separbullet
@@ -33,6 +35,8 @@ ammoTypes: {
      backColor:000000
      hitEffect:sapped
      ammoMultiplier:2
+     trailChance:1
+     trailColor:ffffff
      sprite:separator-mod-titashot
      }
 }
