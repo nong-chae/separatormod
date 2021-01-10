@@ -12,7 +12,7 @@ requirements: [
 ammoTypes: { 
     scrap: {
         type:BasicBulletType
-        damage: 5000
+        damage: 2000
         speed: 100
         lifetime: 15
         hittable:false
@@ -29,7 +29,7 @@ ammoTypes: {
     }
     titanium:{
     type:BasicBulletType
-    damage:3300
+    damage:1500
     speed:100
      width:2
      height:8
