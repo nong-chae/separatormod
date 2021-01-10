@@ -3,19 +3,19 @@ name:mejung
 health:900
 description:"just a turret"
 requirements:[
-copper/300
+copper/500
 lead/400
 scrap/800
-thorium/30
-titanium/240
+thorium/50
+titanium/290
 ] 
 
 ammoTypes:{
 scrap:{
 type:BombBulletType
-damage:75
-splashDamage:90
-splashDamageRadius:5
+damage:80
+splashDamage:80
+splashDamageRadius:32
 lifetime:60
 keepvelocity:true
 sprite:separator-mod-separbullet 
@@ -32,7 +32,7 @@ fragLifeMax:2
 fragBullet:missileExplosive
 scaleVelocity:true
 drag:0
-speed:20
+speed:18
 }
 }
 reloadTime: 180
