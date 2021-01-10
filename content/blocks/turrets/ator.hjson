@@ -3,8 +3,8 @@ name: ator
 description:look at the enemies
 requirements: [
     copper/200
-    lead/150
-    scrap/180
+    lead/200
+    scrap/500
    titanium/170
 ] 
 
@@ -17,7 +17,7 @@ ammoTypes: {
 colors:[666666FF,9B928BFF,E0B28DFF,FFFFFFFF]
           tscales:[0.2,0.2,0.2,0.1]
           width:5
-          damage:90
+          damage:80
           drawsize:200
           pierce:true
           collidesTiles:true
