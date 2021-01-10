@@ -18,27 +18,28 @@ scrap:{
 width:8
 height:8
 backColor: 00000000
-damge:500
-splashDamage:1000
-splashDamageRadius:40
-speed:8
-lifetime:1000
+splashDamage:200
+splashDamageRadius:80
+speed:10
+lifetime:50
 drawSize:10
-ammoMultiplier:12
+ammoMultiplier:20
 sprite:item-scrap
-homingPower:0.1
-homingRange:1000
 hittable:false
 collidesGround:false
+fragBullet:flakScrap
+fragAngle:360
+fragCone:0
+fragBullets:5
 }
 }
 reloadTime:240
-range: 900
+range: 320
 size: 4
 targetGround: false
 targetAir: true
-recoilAmount: 6
-rotateSpeed:1
+recoilAmount: 5
+rotateSpeed:4
 category:turret
 research: foreshadow
 ammoPershot:1
