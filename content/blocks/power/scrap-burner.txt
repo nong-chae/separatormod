@@ -13,5 +13,6 @@ items:{
 items:[ 
 scrap/1]
 }
+}
 craftTime:75
 type:PowerGenerator
