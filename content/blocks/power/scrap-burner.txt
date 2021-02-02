@@ -1,0 +1,17 @@
+health:230
+hasItems:true
+requirements:[
+scrap/30
+copper/25
+lead/30
+]
+size:1
+category:power
+itemCapacity:15
+consumes:{
+items:{
+items:[ 
+scrap/1]
+}
+craftTime:75
+type:PowerGenerator
