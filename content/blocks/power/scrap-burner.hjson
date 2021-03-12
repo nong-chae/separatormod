@@ -14,7 +14,7 @@ items:[
 scrap/1]
 }
 }
-powerProduction: 1.5
-itemDuration: 1.5
+powerProduction: 90
+itemDuration: 1
 type:SingleTypeGenerator
 baseExplosiveness: 1
