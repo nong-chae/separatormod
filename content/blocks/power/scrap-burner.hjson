@@ -15,6 +15,6 @@ scrap/1]
 }
 }
 powerProduction: 1.5
-craftTime:75
+generateTime:75
 type:PowerGenerator
 baseExplosiveness: 1
