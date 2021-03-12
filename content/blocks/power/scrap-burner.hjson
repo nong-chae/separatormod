@@ -14,6 +14,6 @@ items:[
 scrap/1]
 }
 }
-powerProduction: 90
+powerProduction: 1.5
 craftTime:75
 type:PowerGenerator
