@@ -1,11 +1,11 @@
-type: Separator
+type:Separator
 health: 125
 size: 2 
 
 description:separating copper for some reason
 hasItems: true
 hasPower: true
-hasLiquids : true
+hasLiquids: true
 
 itemCapacity: 50 
 requirements: [ 
