@@ -15,11 +15,9 @@ requirements: [
 
 consumes: {  
 power: 1
-liquids: { 
-liquid: [ 
-slag/120
-        ] 
-    }
+liquid: { 
+liquid:slag/2
+        }
 }
 
 results: [{item:copper,amount:4},{item:trash,amount:1}]
