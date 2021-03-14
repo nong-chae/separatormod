@@ -14,7 +14,7 @@ requirements: [
 ] 
 
 consumes: {  
-power: 0.7
+power: 1
 liquids: { 
 liquids: [ 
 slag/120
@@ -22,7 +22,7 @@ slag/120
     }
 }
 
-results: [{item:copper/3},{item:trash/1}]
+results: [{item:copper,amount:4},{item:trash,amount:1}]
 craftTime: 20
 craftEffect: melting
 
