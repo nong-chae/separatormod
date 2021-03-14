@@ -22,7 +22,7 @@ slag/120
     }
 }
 
-results: [{copper/4,lead/4}]
+results: [{item:copper/3},{item:trash/1}]
 craftTime: 20
 craftEffect: melting
 
