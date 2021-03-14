@@ -1,10 +1,11 @@
-type: GenericCrafter 
+type: Separator
 health: 125
 size: 2 
 
 description:separating copper for some reason
 hasItems: true
 hasPower: true
+hasLiquids : true
 
 itemCapacity: 50 
 requirements: [ 
@@ -14,15 +15,14 @@ requirements: [
 
 consumes: {  
 power: 0.7
-items: { 
-items: [ 
-scrap/3
+liquids: { 
+liquids: [ 
+slag/120
         ] 
     }
 }
 
-outputItem: copper/2
-
+results: [{copper/4,lead/4}]
 craftTime: 20
 craftEffect: melting
 
