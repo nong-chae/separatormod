@@ -15,8 +15,8 @@ requirements: [
 
 consumes: {  
 power: 1
-liquids: { 
-liquids: [ 
+liquid: { 
+liquid: [ 
 slag/120
         ] 
     }
